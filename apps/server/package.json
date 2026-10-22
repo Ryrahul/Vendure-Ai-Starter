@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "vendure dev server",
+    "dev:worker": "vendure dev worker",
+    "dev:dashboard": "vendure dev dashboard",
+    "dev": "vendure dev all",
+    "build": "vendure build all",
+    "build:server": "vendure build server",
+    "build:worker": "vendure build worker",
+    "build:dashboard": "vendure build dashboard",
+    "start:server": "node ./dist/index.js",
+    "start:worker": "node ./dist/index-worker.js",
+    "start": "vendure start all",
+    "populate": "ts-node ./src/populate.ts"
+  },
+  "dependencies": {
+    "@rahul_vendure/ai-chat-dashboard": "^0.4.1",
+    "@rahul_vendure/ai-chat-plugin": "^0.6.0",
+    "@vendure/asset-server-plugin": "3.8.0",
+    "@vendure/core": "3.8.0",
+    "@vendure/dashboard": "3.8.0",
+    "@vendure/email-plugin": "3.8.0",
+    "@vendure/graphiql-plugin": "3.8.0",
+    "dotenv": "18.0.8",
+    "pg": "8.23.1"
+  },
+  "devDependencies": {
+    "@vendure/cli": "3.8.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.8.2",
+    "vite": "7.3.7"
+  }
+}
