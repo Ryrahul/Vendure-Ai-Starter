@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@rahul_vendure/ai-chat-dashboard": "^0.4.2",
-    "@rahul_vendure/ai-chat-plugin": "^0.6.1",
+    "@rahul_vendure/ai-chat-plugin": "^0.6.2",
     "@vendure/asset-server-plugin": "3.8.0",
     "@vendure/core": "3.8.0",
     "@vendure/dashboard": "3.8.0",
