@@ -10,6 +10,8 @@ Runs on **OpenAI**, **Azure OpenAI**, or a **self-hosted / OpenAI-compatible** m
 
 Scaffolded with [`@vendure/create`](https://github.com/vendurehq/vendure/tree/master/packages/create) (`--db postgres --storefront nextjs`). The AI comes from [`@rahul_vendure/ai-chat-plugin`](https://www.npmjs.com/package/@rahul_vendure/ai-chat-plugin), [`@rahul_vendure/ai-chat-dashboard`](https://www.npmjs.com/package/@rahul_vendure/ai-chat-dashboard) and [`@rahul_vendure/ai-chat-react`](https://www.npmjs.com/package/@rahul_vendure/ai-chat-react).
 
+> **Already have a Vendure store?** [SETUP.md](./SETUP.md) walks through adding this AI to an existing project, step by step. You can hand it straight to an AI coding agent.
+
 ## Quick start
 
 Requirements: Node.js 22 (or 20.19+), Docker (for Postgres with pgvector), and an API key for one model provider.
